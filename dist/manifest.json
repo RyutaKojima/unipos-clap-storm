@@ -1,7 +1,7 @@
 {
   "name": "UniposClapStorm",
   "description" : "Uniposの拍手を指定数連打するアプリ。拍手ボタンを右クリックで拍手回数を指定できるようになります。",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "icons": {
   },
