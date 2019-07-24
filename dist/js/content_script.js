@@ -10,7 +10,11 @@
 		const isNotLeftClick = e.button !== CLICK_MOUSE_LEFT;
 
 		if (isClapButton && isNotLeftClick) {
-			const addClap = Number(window.prompt('何回拍手をしますか？(最低１回です)'));
+			let addClap = Number(window.prompt('何回拍手をしますか？(最低１回です)'));
+
+			// 右クリック分がキャンセルできないので-1する
+			addClap -= 1;
+
 			for (let i = 1; i <= addClap; i++) {
 				// アニメーション中は受け付けないようなので、一定間隔開ける必要がある
 				window.setTimeout(() => {
