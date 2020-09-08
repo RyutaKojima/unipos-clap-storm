@@ -1,0 +1,11 @@
+{
+  "name": "unipos-clap-storm",
+  "version": "1.0.0",
+  "main": "js/content_script.js",
+  "repository": "git@github.com:RyutaKojima/unipos-clap-storm.git",
+  "author": "r-kojima <rkojima0213@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "publish-build": "zip -r ./unipos-clap-storm.zip ./dist"
+  }
+}
